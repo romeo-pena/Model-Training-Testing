@@ -1,0 +1,1 @@
+11:39:59 Highest EPOCH: 96 Best EPOCH: 13 mIou and mAcc: 0.2396 0.3759 Penalty level: 19

@@ -1,0 +1,17 @@
+python tools/analyze_logs.py logs/pspnet_base.log.json --keys mIoU mAcc aAcc --legend mIoU mAcc aAcc
+python tools/analyze_logs.py logs/pspnet_base.log.json --keys loss --legend loss
+
+python tools/analyze_logs.py work_dirs/pspnet_scratch/None.log.json --keys mIoU mAcc aAcc --legend mIoU mAcc aAcc
+python tools/analyze_logs.py work_dirs/pspnet_scratch/None.log.json --keys loss --legend loss
+
+python tools/analyze_logs.py work_dirs/pspnet_scratch/None.log.json --keys mIoU mAcc aAcc --legend mIoU mAcc aAcc
+python tools/analyze_logs.py work_dirs/pspnet_scratch/None.log.json --keys loss --legend loss
+
+python tools/analyze_logs.py work_dirs/pspnet_scratch_base/None.log.json --keys mIoU mAcc aAcc --legend mIoU mAcc aAcc
+python tools/analyze_logs.py work_dirs/pspnet_scratch_base/None.log.json --keys loss --legend loss
+
+python tools/analyze_logs.py work_dirs/deeplab3_base/None.log.json --keys mIoU mAcc aAcc --legend mIoU mAcc aAcc
+python tools/analyze_logs.py work_dirs/deeplab3_base/None.log.json --keys loss --legend loss
+
+python tools/analyze_logs.py work_dirs/deeplab3_scratch/None.log.json --keys mIoU mAcc aAcc --legend mIoU mAcc aAcc
+python tools/analyze_logs.py work_dirs/deeplab3_scratch/None.log.json --keys loss --legend loss
